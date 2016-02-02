@@ -4,7 +4,7 @@ The Evaluation Suite is a standalone product that allows i2c account managers to
 
 ## User Roles
 | Role | Description |
-|--|--|
+| --- | --- |
 | **account manager** | i2c employee managing several supplier accounts |
 | **supplier** | employee of a company which has gone through a campaign and needs to access evaluations |
 | **data extraction job** | automated task grabbing data about campaigns whose data has already been aggregated |
