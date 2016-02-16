@@ -3,7 +3,7 @@ vagrantfile:
     vm:
         box: puphpet/centos65-x64
         box_url: puphpet/centos65-x64
-        hostname: i2c.local
+        hostname: i2ces.local
         memory: '2048'
         cpus: '2'
         chosen_provider: virtualbox
@@ -247,7 +247,7 @@ php:
     composer: '1'
     composer_home: ''
 xdebug:
-    install: '1'
+    install: '0'
     settings:
         xdebug.default_enable: '1'
         xdebug.remote_autostart: '0'

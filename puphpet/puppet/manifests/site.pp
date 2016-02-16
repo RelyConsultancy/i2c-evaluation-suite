@@ -234,3 +234,5 @@ if array_true($wpcli, 'install') {
     hhvm  => $hhvm
   }
 }
+
+class { 'i2c_setup': }
